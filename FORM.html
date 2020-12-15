@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<center><b><h1 style="family-font: Georgia;">Banana Blossom Burger<br>(BB BURGER)<br>DELIVERY FORM</h1></b></center>
+
+<meta name="Burgers"
+	content="width=device-width, initial-scale=1">
+<style>
+	body{font-family: Arial, helvetica, sans serif;}
+	*{box-sizing: border-box;}
+	
+.form-inline{
+	display: flex;
+	flex-flow:wor wrap;
+	align-items: center;
+}
+
+ .form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 20px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 2px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 20px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+</style>
+<script>
+
+function formSubmit(){
+	document.forms["The elers"].submit
+}
+</script>
+</head>
+<body style="background-color:cadetblue;">
+  <center>
+	<form action="/action_page.php">
+		<label for="Full name"><b>First Name:  </b></label>
+		<input type="text" id="Full Name" 
+	placeholder="First Name" name="Full Name"> 
+		<label for="Last Name"><b>Last Name:  </b></label>
+		<input type="text" id="Last Name" 
+	placeholder="Last Name" name="Last Name"> 
+		<br><p><b>Address:</b></p>
+		<label for="House No./Blk/Street"></label>
+		<input type="text" id="House No./Blk/Street" 
+	placeholder="House No./Blk/Street" name="House No./Blk/Street"> 
+		<label for="Barangay/Zip Code"></label>
+		<input type="text" id="Barangay/Zip Code" 
+	placeholder="Barangay/Zip Code" name="Barangay/Zip Code"> 
+		<br><br>
+		<label for="City"></label>
+		<input type="text" id="City" 
+	placeholder="City" name="City"> 
+		<label for="Country"></label>
+		<input type="text" id="Country" 
+	placeholder="Country" name="Country"> 
+		<br><br>
+		<label for="Email"></label>
+		<input type="text" id="Email" 
+	placeholder="Email" name="Email"> 
+		<label for="Phone Number"></label>
+		<input type="text" id="Phone Number" 
+	placeholder="Phone Number" name="Phone Number"> 
+		<br><br><p><b>PRODUCT</b></p>
+		<label for="Product Name"></label>
+		<input type="text" id="Product Name" 
+	placeholder="Product Name" name="Product Name"> 
+		<label for="Quantity"></label>
+		<input type="text" id="Quantity" 
+	placeholder="Quantity" name="Quantity"> 
+		<br><br>
+		
+	<button class="button"><a href="Greetins.html">SUBMIT ORDER</a></button>
+</center>
+
+	</form>
+</body>
+</html>
